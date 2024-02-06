@@ -1,0 +1,94 @@
+body {
+    font-family: "Lato", sans-serif;
+    
+  }
+  footer{
+    position: relative;
+    bottom: 0;
+    background-color: green;
+  }
+  .bottom-header {
+  
+    padding: 5px 0 5px;
+  }
+   
+  .footer-1
+  {
+    position: relative;
+      padding: 5px 0;
+      background-color: green;   
+      border-bottom: 2px white solid;  
+  }
+ 
+  .card{
+    background: transparent;
+    border: transparent;
+    padding-left: 25px;
+    
+  }
+  .card-title{
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: white;
+
+  }
+  .card-body{
+    padding: 0;
+  }
+  .card-text{
+    padding: 0;
+  }
+  .f-links{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    
+    
+  }
+  .f-links:hover{
+    color: orange;
+    transform: scale(1.2);
+  } 
+  .f-list{
+    list-style: none;
+    padding-top: 10px;
+    border-bottom: 2px solid wheat;
+  }
+  .learn-btn{
+    background-color: green;
+    border: white solid 2px;
+    height: 30px;
+    width: 120px;
+    padding: 1px;
+  
+  }
+  .learn-btn:hover{
+    background-color: orange;
+    border: black solid 2px;
+  }
+ 
+  .footer-logo{
+      height: 100px;
+      width: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .fsite-name{
+      display: block;
+      font-size: 23px;
+      font-weight: 800;
+      color: white;
+      padding-top: 10px;
+        }
+  .fsite-desc{
+      font-style: italic;
+      color: white;
+  }
+  .f-icon{
+    padding: 10px 5px;
+  }

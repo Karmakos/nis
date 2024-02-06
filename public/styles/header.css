@@ -1,0 +1,122 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+header{
+  
+    background-color: green;
+    position: relative;
+      padding: 5px 0;
+      height: 100px;
+      top: 0;
+}
+.header-1 {
+  padding: 5px 0 5px;
+}
+.menu-section{
+    background: transparent !important;
+
+}
+
+.header-2
+{
+    position: relative;
+    top: -20px;
+    padding: 5px 0;
+    background-color: orange;
+    z-index: 1;
+    
+}
+.menu-nav{
+  padding: 40px 2px 2px;
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+  
+}
+.menu-nav:hover{
+  color: green;
+  transform: scale(1.2);
+}
+.menu-nav:active{
+  color: green!important;
+}
+.menu-item{
+  padding: 5px 10px 0;
+
+}
+.menu-btn{
+  margin-top: 40px;
+  background-color: green;
+  border: white solid 2px; 
+
+}
+.menu-btn:hover{
+  background-color: orange;
+  border: black solid 2px;
+}
+.navbar-toggler-icon{
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  background-image: url('../images/menu-bar.png');
+   height: 50px;
+  width: 50px;
+  top: 25%;
+  right: 5%;
+}
+.navbar-toggler-icon:active{
+  background-image: url('../images/arrow.png');
+}
+.canva-col{
+  z-index: 1;
+  position: absolute;
+  top: 35%;
+  background-color: orange;
+  right: 0;
+  }
+
+.top-links {
+  color: white;
+
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+.top-links:hover{
+    color:orange;
+}
+.brand-logo{
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-name{
+    font-weight: 800;
+    color: green;
+    padding-top: 5px;
+}
+.site-desc{
+    text-align: center;
+    font-style: italic;
+}
+
+
+sup {
+  font-size: 12px;
+  color: green;
+  animation: animate 1s linear infinite;
+  padding: 0 2px;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
