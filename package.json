@@ -7,11 +7,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build": "npm install && npm run build"
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "Projects"
+    "url": "https://github.com/your-username/nis-project.git"
   },
   "author": "karimakos",
   "license": "ISC",
