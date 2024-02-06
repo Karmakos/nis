@@ -1,0 +1,6 @@
+# netlify.toml
+
+[build]
+  command = "npm run build"   # or the command to build your project
+  publish = "views"          # specify the publish directory
+
