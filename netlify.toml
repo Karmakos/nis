@@ -1,7 +1,3 @@
 [build]
   command = "npm run build"   # or the command to build your project
   publish = "/"          # specify the publish directory
-
-[dev]
-  command = "npm start"   # the command to start your development server
-  publish = "/"       # specify the directory to serve during local development
