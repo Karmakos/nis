@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"   # or the command to build your project
-  publish = "views"          # specify the publish directory
+  publish = "nis"          # specify the publish directory
 
 [dev]
   command = "npm start"   # the command to start your development server
-  publish = "views"       # specify the directory to serve during local development
+  publish = "nis"       # specify the directory to serve during local development
