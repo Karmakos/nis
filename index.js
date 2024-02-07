@@ -6,6 +6,14 @@ const port = 3000;
 
 app.use(express.static("public"));
 
+app.set('view engine', 'ejs');
+
+app.use((err, req, res, next) => {
+	console.error(err.stack);
+	res.status(500).send('Something went wrong!');
+  });
+  
+
 app.get('/', (req, res)=>
 	{
 		res.render("index.ejs");
