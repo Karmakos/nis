@@ -70,6 +70,6 @@ router.get('/tou', (req, res)=>
 	res.render("tou.ejs")
 
 });
-app.use('/.netlify/index', router);
+app.use(router);
 app.listen(port,
 console.log(`App running at port ${port}`));
