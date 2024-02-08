@@ -1,5 +1,6 @@
 [build]
   command = "npm run build"   # or the command to build your project
+  base = "."
   publish = "."          # specify the publish directory
   functions = "."
 
