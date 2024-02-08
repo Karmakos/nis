@@ -70,6 +70,22 @@ router.get('/tou', (req, res)=>
 	res.render("tou.ejs")
 
 });
-app.use(router);
+export const handler = async (event, context) => {
+	const path = event.path.toLowerCase();
+  
+	const response = {
+	  statusCode: 404,
+	  body: JSON.stringify({ message: 'Not Found' }),
+	};
+  
+	// Define your serverless routes here
+	if (path === 'index') {
+	  response.statusCode = 200;
+	  response.body = JSON.stringify({ message: 'Hello from the serverless function!' });
+	}
+  
+	return response;
+  };
+app.use('/', router);
 app.listen(port,
 console.log(`App running at port ${port}`));
