@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A remake of the NIS Website to make it user friendly, informative, and comprehensive.",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
