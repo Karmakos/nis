@@ -1,0 +1,39 @@
+[build]
+  command = "npm run build"  # Adjust this command based on your project setup
+  publish = "public"         # Adjust this directory based on your project setup
+
+[dev]
+  command = "npm run start"  # Adjust this command based on your project setup
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Add any environment variables needed for your app
+[context.production.environment]
+  NODE_ENV = "production"
+
+[context.deploy-preview.environment]
+  NODE_ENV = "production"
+
+[context.branch-deploy.environment]
+  NODE_ENV = "production"
+
+[context.split1]
+  command = "npm run build"
+  # Add any environment variables specific to this context
+
+[context.deploy-preview]
+  command = "npm run build"
+  # Add any environment variables specific to this context
+
+[context.production]
+  command = "npm run build"
+  # Add any environment variables specific to this context
