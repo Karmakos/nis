@@ -5,10 +5,6 @@
 [dev]
   command = "npm run start"  # Adjust this command based on your project setup
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
 
 [[headers]]
   for = "/*"
