@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"  # Adjust this command based on your project setup
-  publish = "public"         # Adjust this directory based on your project setup
+  publish = "."         # Adjust this directory based on your project setup
 
 [dev]
   command = "npm run start"  # Adjust this command based on your project setup
