@@ -6,10 +6,9 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"jekyll serve --destination public\" \"node index.js\"",
     "build": "npm install",
-    "command": "npm run start",
-    "start": "concurrently \"jekyll serve --destination public\" \"node index.js\""
-    
+    "command": "npm run start"
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,8 @@
     "font-awesome": "^4.7.0",
     "global": "^4.4.0",
     "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
